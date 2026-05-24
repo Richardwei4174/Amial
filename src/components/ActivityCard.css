@@ -1,0 +1,102 @@
+
+.postCardContainer {
+  background-color: white;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  padding-top: 5px;
+  padding-left: 5px;
+  border-radius: 5px;
+}
+.leftSideBarActivtyCard{
+  width: 30px;
+  padding-right: 5px;
+}
+
+.mainActivityCard{
+  flex: 1;
+}
+
+/*Left profile picture*/
+.creatorProfilePicture{
+  width: 100%;
+  border-radius: 50%;
+}
+
+
+/*Header stuff*/
+.postCardHeader{
+  display: flex;
+  align-items: center;
+}
+
+.creatorName{
+  font-weight: bold;
+}
+
+.creatorUserName{
+  font-size: 10px;
+  color: gray;
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+.timePosted{
+  font-size: 10px;
+  color: gray;
+  font-weight: bold;
+}
+
+.dotdotdot{
+  margin-left: auto;
+  transform: translateY(-6px);
+}
+
+/*Title date time location */
+.postActivityTitle{
+  font-weight: bold;
+  text-align: center;
+}
+
+.dateTimeLocation{
+  font-size: 10px;
+  font-weight: bold;
+  color: gray;
+  text-align: center;
+}
+
+/*postCardAction*/
+.postCardActions{
+  display: flex;
+  align-items: center;
+}
+.chatIconContainer{
+  height: 20px;
+}
+.chatIcon{
+  height: 100%;
+}
+.chatNumber{
+  font-size: 10px;
+
+}
+
+.postCardActionsRight{
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+}
+.attendees{
+  font-size: 12px;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+
+.joinButton{
+  background-color: rgb(33, 145, 201);
+  color: white;
+  font-size: 12px;
+  padding: 5px 8px;
+  border-radius: 20px
+}

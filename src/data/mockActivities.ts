@@ -17,11 +17,11 @@ export const posts: ActivityPost[] = [
 
     attendeeCount: 2,
     commentCount: 0,
-    joinedByMe: false
+    joinedByMe: true,
 
   },
   {
-    creatorName: "Micheal Santiago",
+    creatorName: "Mikeal Santiago",
     creatorUserName: "Megalink",
     creatorProfileImageUrl: "9876",
     id: "2",
@@ -36,7 +36,7 @@ export const posts: ActivityPost[] = [
 
     attendeeCount: 1,
     commentCount: 2,
-    joinedByMe: true
+    joinedByMe: false,
 
   },
 
