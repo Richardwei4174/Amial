@@ -13,7 +13,7 @@ function ActivityCard({ post }: ActivityCardProp) {
           <img
             className="creatorProfilePicture"
             src={post.creatorProfileImageUrl}
-            alt={`${post.creatorName}'s profile`}
+            //alt={`${post.creatorName}'s profile`}
           />
         </div>
       </div>

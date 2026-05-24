@@ -4,7 +4,7 @@ export const posts: ActivityPost[] = [
   {
     creatorName: "Richard Wei",
     creatorUserName: "Richardwei127",
-    creatorProfileImageUrl: "12345",
+    creatorProfileImageUrl: "/src/images/mypfp.jpg",
     id: "1",
     title: "Leg Day",
     date: "5/12/2026",

@@ -1,5 +1,7 @@
 import { posts } from "../data/mockActivities";
 import ActivityCard from "../components/ActivityCard";
+import "./ActivitiesPage.css";
+
 
 // .map is a loop
 function ActivityPage(){
